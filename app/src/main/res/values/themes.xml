@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ap_ground">#0B0B0D</color>
+    <color name="ap_red">#E5243B</color>
+    <color name="ap_icon_bg">#14070A</color>
+
+    <style name="Theme.ApexPhantom" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ap_ground</item>
+        <item name="android:statusBarColor">@color/ap_ground</item>
+        <item name="android:navigationBarColor">@color/ap_ground</item>
+        <item name="android:colorAccent">@color/ap_red</item>
+    </style>
+</resources>
