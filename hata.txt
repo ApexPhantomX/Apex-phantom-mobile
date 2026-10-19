@@ -1,0 +1,351 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:compileDebugAidl
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:compressDebugAssets
+> Task :app:processDebugResources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeLibDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:mergeDebugNativeLibs
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeExtDexDebug
+> Task :app:compileDebugKotlin FAILED
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ApexApp.kt:4:36 Unresolved reference 'GameRepository'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ApexApp.kt:16:25 Unresolved reference 'GameRepository'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ApexApp.kt:25:17 Unresolved reference 'GameRepository'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/data/GameData.kt:197:1 Syntax error: Unclosed comment.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:55:19 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:55:34 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:55:46 Unresolved reference 'catalog'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:56:20 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:56:38 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:56:50 Unresolved reference 'builds'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:56:77 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:15 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:15 Not enough information to infer type argument for 'T'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:15 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:15 Not enough information to infer type argument for 'T'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:24 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:26 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:26 Not enough information to infer type argument for 'T'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:58:51 Unresolved reference 'id'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:59:53 Unresolved reference 'hero'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:60:53 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:61:82 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:67:27 Unresolved reference 'heroes'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:67:48 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:68:73 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:68:79 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.any(predicate: (T) -> Boolean): Boolean
+fun BooleanArray.any(predicate: (Boolean) -> Boolean): Boolean
+fun ByteArray.any(predicate: (Byte) -> Boolean): Boolean
+fun CharArray.any(predicate: (Char) -> Boolean): Boolean
+fun DoubleArray.any(predicate: (Double) -> Boolean): Boolean
+fun FloatArray.any(predicate: (Float) -> Boolean): Boolean
+fun IntArray.any(predicate: (Int) -> Boolean): Boolean
+fun LongArray.any(predicate: (Long) -> Boolean): Boolean
+fun ShortArray.any(predicate: (Short) -> Boolean): Boolean
+fun <T> Iterable<T>.any(predicate: (T) -> Boolean): Boolean
+fun <K, V> Map<out K, V>.any(predicate: (Map.Entry<K, V>) -> Boolean): Boolean
+fun UByteArray.any(predicate: (UByte) -> Boolean): Boolean
+fun UIntArray.any(predicate: (UInt) -> Boolean): Boolean
+fun ULongArray.any(predicate: (ULong) -> Boolean): Boolean
+fun UShortArray.any(predicate: (UShort) -> Boolean): Boolean
+fun <T> Sequence<T>.any(predicate: (T) -> Boolean): Boolean
+fun CharSequence.any(predicate: (Char) -> Boolean): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:68:85 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:68:85 Operator '==' cannot be applied to 'kotlin.text.CharCategory' and 'kotlin.String'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:69:24 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:69:30 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.filter(predicate: (T) -> Boolean): List<T>
+fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean>
+fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte>
+fun CharArray.filter(predicate: (Char) -> Boolean): List<Char>
+fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double>
+fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float>
+fun IntArray.filter(predicate: (Int) -> Boolean): List<Int>
+fun LongArray.filter(predicate: (Long) -> Boolean): List<Long>
+fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short>
+fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T>
+fun <K, V> Map<out K, V>.filter(predicate: (Map.Entry<K, V>) -> Boolean): Map<K, V>
+fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte>
+fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt>
+fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong>
+fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort>
+fun <T> Sequence<T>.filter(predicate: (T) -> Boolean): Sequence<T>
+fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence
+fun String.filter(predicate: (Char) -> Boolean): String
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:70:26 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:70:26 Operator '==' cannot be applied to 'kotlin.text.CharCategory' and 'kotlin.String'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:70:69 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:109:48 Argument type mismatch: actual type is 'kotlin.Any', but 'com.apexphantom.mobile.data.Hero' was expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:112:55 Unresolved reference 'roleText'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:187:35 Unresolved reference 'save'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:196:35 Unresolved reference 'save'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:210:32 Unresolved reference 'category'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:210:52 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:212:30 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:221:44 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:228:25 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:230:72 Unresolved reference 'category'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:230:88 Unresolved reference 'category'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:240:30 Unresolved reference 'heroes'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:240:61 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:249:50 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:253:59 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:257:43 Argument type mismatch: actual type is 'kotlin.Int', but 'com.apexphantom.mobile.data.Hero' was expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:259:44 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/BuildPlannerScreen.kt:260:44 Unresolved reference 'roleText'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:145:19 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:145:34 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:145:46 Unresolved reference 'catalog'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:146:22 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:146:22 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:146:32 Unresolved reference 'builds'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:146:39 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:147:28 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.filter(predicate: (T) -> Boolean): List<T>
+fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean>
+fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte>
+fun CharArray.filter(predicate: (Char) -> Boolean): List<Char>
+fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double>
+fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float>
+fun IntArray.filter(predicate: (Int) -> Boolean): List<Int>
+fun LongArray.filter(predicate: (Long) -> Boolean): List<Long>
+fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short>
+fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T>
+fun <K, V> Map<out K, V>.filter(predicate: (Map.Entry<K, V>) -> Boolean): Map<K, V>
+fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte>
+fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt>
+fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong>
+fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort>
+fun <T> Sequence<T>.filter(predicate: (T) -> Boolean): Sequence<T>
+fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence
+fun String.filter(predicate: (Char) -> Boolean): String
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:147:37 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:155:26 Unresolved reference 'heroes'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:156:35 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:156:68 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:158:73 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:158:79 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.any(predicate: (T) -> Boolean): Boolean
+fun BooleanArray.any(predicate: (Boolean) -> Boolean): Boolean
+fun ByteArray.any(predicate: (Byte) -> Boolean): Boolean
+fun CharArray.any(predicate: (Char) -> Boolean): Boolean
+fun DoubleArray.any(predicate: (Double) -> Boolean): Boolean
+fun FloatArray.any(predicate: (Float) -> Boolean): Boolean
+fun IntArray.any(predicate: (Int) -> Boolean): Boolean
+fun LongArray.any(predicate: (Long) -> Boolean): Boolean
+fun ShortArray.any(predicate: (Short) -> Boolean): Boolean
+fun <T> Iterable<T>.any(predicate: (T) -> Boolean): Boolean
+fun <K, V> Map<out K, V>.any(predicate: (Map.Entry<K, V>) -> Boolean): Boolean
+fun UByteArray.any(predicate: (UByte) -> Boolean): Boolean
+fun UIntArray.any(predicate: (UInt) -> Boolean): Boolean
+fun ULongArray.any(predicate: (ULong) -> Boolean): Boolean
+fun UShortArray.any(predicate: (UShort) -> Boolean): Boolean
+fun <T> Sequence<T>.any(predicate: (T) -> Boolean): Boolean
+fun CharSequence.any(predicate: (Char) -> Boolean): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:158:85 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:158:85 Operator '==' cannot be applied to 'kotlin.text.CharCategory' and 'kotlin.String'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:159:33 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:159:39 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.filter(predicate: (T) -> Boolean): List<T>
+fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean>
+fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte>
+fun CharArray.filter(predicate: (Char) -> Boolean): List<Char>
+fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double>
+fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float>
+fun IntArray.filter(predicate: (Int) -> Boolean): List<Int>
+fun LongArray.filter(predicate: (Long) -> Boolean): List<Long>
+fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short>
+fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T>
+fun <K, V> Map<out K, V>.filter(predicate: (Map.Entry<K, V>) -> Boolean): Map<K, V>
+fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte>
+fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt>
+fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong>
+fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort>
+fun <T> Sequence<T>.filter(predicate: (T) -> Boolean): Sequence<T>
+fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence
+fun String.filter(predicate: (Char) -> Boolean): String
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:160:30 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:160:30 Operator '==' cannot be applied to 'kotlin.text.CharCategory' and 'kotlin.String'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:160:77 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:32 Unresolved reference 'heroes'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:66 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:72 Function invocation 'size(...)' expected.
+----- son 150 satır -----
+fun ULongArray.any(predicate: (ULong) -> Boolean): Boolean
+fun UShortArray.any(predicate: (UShort) -> Boolean): Boolean
+fun <T> Sequence<T>.any(predicate: (T) -> Boolean): Boolean
+fun CharSequence.any(predicate: (Char) -> Boolean): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:158:85 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:158:85 Operator '==' cannot be applied to 'kotlin.text.CharCategory' and 'kotlin.String'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:159:33 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:159:39 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.filter(predicate: (T) -> Boolean): List<T>
+fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean>
+fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte>
+fun CharArray.filter(predicate: (Char) -> Boolean): List<Char>
+fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double>
+fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float>
+fun IntArray.filter(predicate: (Int) -> Boolean): List<Int>
+fun LongArray.filter(predicate: (Long) -> Boolean): List<Long>
+fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short>
+fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T>
+fun <K, V> Map<out K, V>.filter(predicate: (Map.Entry<K, V>) -> Boolean): Map<K, V>
+fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte>
+fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt>
+fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong>
+fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort>
+fun <T> Sequence<T>.filter(predicate: (T) -> Boolean): Sequence<T>
+fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence
+fun String.filter(predicate: (Char) -> Boolean): String
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:160:30 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:160:30 Operator '==' cannot be applied to 'kotlin.text.CharCategory' and 'kotlin.String'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:160:77 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:32 Unresolved reference 'heroes'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:66 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:72 Function invocation 'size(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:173:101 Unresolved reference 'updated'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:191:28 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.isEmpty(): Boolean
+fun BooleanArray.isEmpty(): Boolean
+fun ByteArray.isEmpty(): Boolean
+fun CharArray.isEmpty(): Boolean
+fun DoubleArray.isEmpty(): Boolean
+fun FloatArray.isEmpty(): Boolean
+fun IntArray.isEmpty(): Boolean
+fun LongArray.isEmpty(): Boolean
+fun ShortArray.isEmpty(): Boolean
+fun CharSequence.isEmpty(): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:202:105 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:207:43 Argument type mismatch: actual type is 'kotlin.Char', but 'com.apexphantom.mobile.data.Hero' was expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:208:43 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:209:43 Unresolved reference 'roleText'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:212:40 Function invocation 'size(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:225:35 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.isEmpty(): Boolean
+fun BooleanArray.isEmpty(): Boolean
+fun ByteArray.isEmpty(): Boolean
+fun CharArray.isEmpty(): Boolean
+fun DoubleArray.isEmpty(): Boolean
+fun FloatArray.isEmpty(): Boolean
+fun IntArray.isEmpty(): Boolean
+fun LongArray.isEmpty(): Boolean
+fun ShortArray.isEmpty(): Boolean
+fun CharSequence.isEmpty(): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:226:49 Unresolved reference 'category'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:226:69 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:238:33 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:239:53 Unresolved reference 'category'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:239:69 Unresolved reference 'category'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:250:28 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.isEmpty(): Boolean
+fun BooleanArray.isEmpty(): Boolean
+fun ByteArray.isEmpty(): Boolean
+fun CharArray.isEmpty(): Boolean
+fun DoubleArray.isEmpty(): Boolean
+fun FloatArray.isEmpty(): Boolean
+fun IntArray.isEmpty(): Boolean
+fun LongArray.isEmpty(): Boolean
+fun ShortArray.isEmpty(): Boolean
+fun CharSequence.isEmpty(): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:258:42 Unresolved reference 'id'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:260:32 Unresolved reference 'name'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:260:37 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:261:32 Unresolved reference 'hero'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:31 Function invocation 'items(...)' expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:37 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.filter(predicate: (T) -> Boolean): List<T>
+fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean>
+fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte>
+fun CharArray.filter(predicate: (Char) -> Boolean): List<Char>
+fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double>
+fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float>
+fun IntArray.filter(predicate: (Int) -> Boolean): List<Int>
+fun LongArray.filter(predicate: (Long) -> Boolean): List<Long>
+fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short>
+fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T>
+fun <K, V> Map<out K, V>.filter(predicate: (Map.Entry<K, V>) -> Boolean): Map<K, V>
+fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte>
+fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt>
+fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong>
+fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort>
+fun <T> Sequence<T>.filter(predicate: (T) -> Boolean): Sequence<T>
+fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence
+fun String.filter(predicate: (Char) -> Boolean): String
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:44 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.isNotEmpty(): Boolean
+fun BooleanArray.isNotEmpty(): Boolean
+fun ByteArray.isNotEmpty(): Boolean
+fun CharArray.isNotEmpty(): Boolean
+fun DoubleArray.isNotEmpty(): Boolean
+fun FloatArray.isNotEmpty(): Boolean
+fun IntArray.isNotEmpty(): Boolean
+fun LongArray.isNotEmpty(): Boolean
+fun ShortArray.isNotEmpty(): Boolean
+fun <T> Collection<T>.isNotEmpty(): Boolean
+fun <K, V> Map<out K, V>.isNotEmpty(): Boolean
+fun CharSequence.isNotEmpty(): Boolean
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:46 Unresolved reference 'it'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:64 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((T) -> CharSequence)? = ...): String
+fun BooleanArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Boolean) -> CharSequence)? = ...): String
+fun ByteArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Byte) -> CharSequence)? = ...): String
+fun CharArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Char) -> CharSequence)? = ...): String
+fun DoubleArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Double) -> CharSequence)? = ...): String
+fun FloatArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Float) -> CharSequence)? = ...): String
+fun IntArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Int) -> CharSequence)? = ...): String
+fun LongArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Long) -> CharSequence)? = ...): String
+fun ShortArray.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((Short) -> CharSequence)? = ...): String
+fun <T> Iterable<T>.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((T) -> CharSequence)? = ...): String
+fun <T> Sequence<T>.joinToString(separator: CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated: CharSequence = ..., transform: ((T) -> CharSequence)? = ...): String
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:84 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:263:94 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.sequences.Sequence<T>' was expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:267:109 Unresolved reference 'id'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:268:95 Argument type mismatch: actual type is 'kotlin.Int', but 'com.apexphantom.mobile.data.Build' was expected.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:269:76 Unresolved reference 'delete'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:269:85 Unresolved reference 'id'.
+e: file:///home/runner/work/Apex-phantom-mobile/Apex-phantom-mobile/app/src/main/java/com/apexphantom/mobile/ui/screens/GameScreen.kt:307:39 Unresolved reference 'save'.
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run-1792376104002.json
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 37s
+30 actionable tasks: 30 executed
