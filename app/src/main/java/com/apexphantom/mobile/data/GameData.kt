@@ -130,7 +130,7 @@ data class Build(
     }
 }
 
-/** Oyun verilerini (assets/games/*.json) okur ve kayıtlı build'leri saklar. */
+/** Oyun verilerini (assets/games klasöründeki JSON dosyaları) okur ve kayıtlı build'leri saklar. */
 class GameRepository(private val context: Context) {
 
     private val cache = HashMap<GameId, GameCatalog>()
